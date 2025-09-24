@@ -3,7 +3,7 @@
 
 项目受 GNU General Public License v3.0(GPLv3) 协议保护。在使用该模板时，请标明出处。
 
-This is the LaTeX template for the publication of the Shanghai Jiao Tong University Science Fiction and Fantasy Association. The specific usage can be found in main.tex. The template is defined in SJTUSFFACover.sty. You can also check and use the template on Overleaf.
+This is the LaTeX template for the publication of the Shanghai Jiao Tong University Science Fiction and Fantasy Association. The specific usage can be found in main.tex. The template is defined in SJTUSFFABookCover.sty. You can also check and use the template on Overleaf.
 
 The project is protected under the GNU General Public License version 3.0 (GPLv3). When using this template, please acknowledge the source.
 

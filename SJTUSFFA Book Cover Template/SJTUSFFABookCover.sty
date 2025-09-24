@@ -1,0 +1,111 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% 上海交通大学科幻奇幻协会刊物封面模板
+%% 作者：上海交通大学科幻奇幻协会
+%% GitHub：https://github.com/gpabooks/SJTUSFFA-Book-Cover-Template
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% SJTUSFFABookCover.sty
+
+\ProvidesPackage{SJTUSFFABookCover}
+
+%%--------------------加载宏包--------------------%%
+\RequirePackage[UTF8,fontset=windows]{ctex}
+\RequirePackage{amsmath}
+\RequirePackage{amssymb}
+\RequirePackage{amsbsy}
+\RequirePackage{amsopn}
+\RequirePackage{amstext}
+\RequirePackage{amsthm}
+\RequirePackage{amsxtra}
+\RequirePackage{array}
+\RequirePackage{bm}
+\RequirePackage{calc}
+\RequirePackage{caption}
+\RequirePackage{ctex}
+\RequirePackage{enumerate}
+\RequirePackage{eso-pic}
+\RequirePackage{etoolbox}
+\RequirePackage{fancyhdr}
+\RequirePackage{float}
+\RequirePackage{fontawesome5}
+\RequirePackage{fontspec}
+\RequirePackage{footmisc}
+\RequirePackage{geometry}
+\RequirePackage{graphicx}
+\RequirePackage{ifpdf}
+\RequirePackage{ifthen}
+\RequirePackage{indentfirst}
+\RequirePackage{tabularx}
+\RequirePackage{latexsym}
+\RequirePackage{multicol}
+\RequirePackage{multirow}
+\RequirePackage{setspace}
+%\RequirePackage{showframe} % 最后记得去掉
+\RequirePackage{svg}
+\RequirePackage{titlesec}
+\RequirePackage{titletoc}
+\RequirePackage{tocloft}
+\RequirePackage{xeCJK}
+\RequirePackage{xcolor}
+\RequirePackage{tikz}
+\usetikzlibrary{calc} 
+\usetikzlibrary{shadows}
+\RequirePackage{rotating}
+\RequirePackage{zhlipsum}
+
+\RequirePackage[hyphens]{url}
+\RequirePackage[unicode=true,colorlinks,urlcolor=blue,linkcolor=blue,bookmarksnumbered=blue]{hyperref}
+
+
+%%--------------------页面布局--------------------%%
+
+%%--------------------字体设置--------------------%%
+%% 中文主字体（CJK）方正兰亭黑GBK
+\xeCJKsetup{PunctStyle=quanjiao} % 全角标点 或 PunctStyle=kaiming
+\setCJKmainfont{FZLTHK.ttf}[
+    Path = ./fonts/,
+    BoldFont = FZLTCHK.ttf
+]
+%% 英文主字体（Latin）方正兰亭黑GBK
+\setmainfont{FZLTHK.ttf}[
+    Path = ./fonts/,
+    BoldFont = FZLTCHK.ttf
+]
+
+\setCJKsansfont{SimHei} % 设置无衬线字体
+\setCJKmonofont{KaiTi} % 设置等宽字体
+
+%% 自定义英文字体命令 Times New Roman 引用环境使用
+\newfontfamily\timesnewroman{Times New Roman}
+
+%% 自定义中英文字体命令 Noto Serif SC 页眉使用
+\newfontfamily\notoserifcjkscbolden{NotoSerifCJKsc-Bold.otf}[
+    Path = ./fonts/,
+]
+\newCJKfontfamily\notoserifcjkscboldzh{NotoSerifCJKsc-Bold.otf}[
+    Path = ./fonts/
+]
+
+%% 自定义中英文字体 方正清刻本悦宋简R 版块起始页面用
+\newfontfamily\fzqkbysjren{FZQingKBYSJW-R.ttf}[
+    Path = ./fonts/
+]
+\newCJKfontfamily\fzqkbysjrzh{FZQingKBYSJW-R.ttf}[
+    Path = ./fonts/
+]
+
+%% 自定义中英文字体 方正小篆体 
+\newCJKfontfamily\fzxztfw{FZXZTFW.ttf}[
+    Path = ./fonts/
+]
+
+\newCJKfontfamily\fzhfsjwb{FZHengFSJW-B.ttf}[
+    Path = ./fonts/
+]
+
+\newCJKfontfamily\fzhfsjweb{FZHengFSJW-EB.ttf}[
+    Path = ./fonts/
+]
+
+\newCJKfontfamily\fzhfsjwh{FZHengFSJW-H.ttf}[
+    Path = ./fonts/
+]

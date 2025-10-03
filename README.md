@@ -1,11 +1,12 @@
 # SJTUSFFA-Book-Cover-Template
-这是上海交通大学科幻奇幻协会社团刊物的latex模板。具体使用方法见 main.tex 。模板定义在 SJTUSFFABookCover.sty。你也可以在overleaf上查看并使用模板。
+这是上海交通大学科幻奇幻协会社团刊物的latex模板。
 
 项目受 GNU General Public License v3.0(GPLv3) 协议保护。在使用该模板时，请标明出处。
 
-This is the LaTeX template for the publication of the Shanghai Jiao Tong University Science Fiction and Fantasy Association. The specific usage can be found in main.tex. The template is defined in SJTUSFFABookCover.sty. You can also check and use the template on Overleaf.
+## 使用指南
+推荐使用[Overleaf](https://cn.overleaf.com)平台进行在线编辑。
 
-The project is protected under the GNU General Public License version 3.0 (GPLv3). When using this template, please acknowledge the source.
+- 编译器请选择XeLaTeX
+- Tex Live版本请选择TeX Live 2025
 
-## 注意事项
-编译器请选择XeLaTeX。
+具体设置和相关命令可参考 `SJTUSFFA Book Cover Template/main.tex`以及`SJTUSFFA Book Cover Template/SJTUSFFABook.sty`。
